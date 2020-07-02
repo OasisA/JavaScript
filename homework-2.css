@@ -1,0 +1,28 @@
+h1, .navbar-brand{
+    text-align: center;
+    background-color: #190933;
+    color: white;
+    padding: 15px;
+}
+.bg-light{
+   background-color: white!important ; 
+   color: white;
+   clear: both;
+}
+
+.collapse:not(.show) {
+    display: block;
+}
+li {
+    text-align: center;
+}
+.navbar-nav {
+    flex-direction: initial;
+}
+li.nav-item.active {
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: white;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pizza Console - Unsolved</title>
+  </head>
+  <body>
+    
+    <script type="text/javascript">
+
+    // Variables
+    var name = "Aqsa Owais";
+    var pizzaCount = 15;
+    var isHungry = true;
+    var totalCost = pizzaCount * 5.00;
+
+    // Instructions: Replace each of the "alert" functions below with "console.log()"
+    alert("Welcome: " + name);
+
+    alert("Pizzas cost $5 each");
+
+    alert("Your total is: $" + totalCost);
+
+    alert("Still Hungry: " + isHungry);
+
+    if (isHungry) {
+      var isHungry = confirm("Would you like to buy more pizza?");
+      }
+      else {
+        alert("Come again!");
+      }
+  if (isHungry){
+    pizzaCount = prompt("How many more boxes?")
+    totalCost = totalCost + (parseInt(pizzaCount)*5.00)
+  alert("Your total is: $" + totalCost )
+  }
+  else {
+        alert("Come again!");
+      }
+ 
+
+    </script>
+    
+  </body>
+</html>
