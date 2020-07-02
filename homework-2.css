@@ -36,14 +36,14 @@ body{
     background-color: white;
 }
 
-img{
+.textWrap{
 display: block;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-height: 100%;
+float:left; 
+margin-right: 10px;
+width: 440px;
+height: 320px;
+padding-bottom: 15px;
 }
 
 p{
-    padding-left: 0;
 }
