@@ -28,6 +28,9 @@ li {
 li.nav-item.active {
     margin-left: auto;
     margin-right: auto;
+    font-size: 30px;
+    color: #190933; 
+
 }
 body{
     background-color: white;
