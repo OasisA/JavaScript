@@ -30,8 +30,20 @@ li.nav-item.active {
     margin-right: auto;
     font-size: 30px;
     color: #190933; 
-
+    text-align: right;
 }
 body{
     background-color: white;
+}
+
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 100%;
+}
+
+p{
+    padding-left: 0;
 }
