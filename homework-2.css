@@ -45,5 +45,7 @@ height: 320px;
 padding-bottom: 15px;
 }
 
-p{
+.card{
+    margin: auto;
+    margin-bottom: 35px;
 }

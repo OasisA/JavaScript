@@ -49,8 +49,8 @@
     EX. var zooAnimals =["zebra", "rhino", "owl, "giraffer"]
     
     console.log(zooAnimals.length); -> 4
-    console.log(zooAnimals.[1]); -> rhino
-    console.log(zooAnimals.[4]); -> undeined (nothing there)
+    console.log(zooAnimals[1]); -> rhino
+    console.log(zooAnimals[4]); -> undeined (nothing there)
     - DO NOT care about data type
     - can replace items in an array -> NAME[#] = NEW VALUE
     - can add items to an arroay -> NAME.push = NEW VALUE
