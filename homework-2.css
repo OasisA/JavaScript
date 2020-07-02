@@ -4,10 +4,16 @@ h1, .navbar-brand{
     color: white;
     padding: 15px;
 }
+h2{
+    color:#190933;
+}
 .bg-light{
    background-color: white!important ; 
    color: white;
    clear: both;
+}
+.btn-lg{
+    background-color: #190933; 
 }
 
 .collapse:not(.show) {
