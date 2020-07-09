@@ -1,0 +1,58 @@
+h1, .navbar-brand{
+    text-align: center;
+    background-color: #190933;
+    color: white;
+    padding: 15px;
+}
+h2{
+    color:#190933;
+}
+.bg-light{
+   background-color: white!important ; 
+   color: white;
+   clear: both;
+}
+.btn-lg{
+    background-color: #190933; 
+}
+
+.collapse:not(.show) {
+    display: block;
+}
+li {
+    text-align: center;
+}
+.navbar-nav {
+    flex-direction: initial;
+}
+li.nav-item.active {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    color: #190933; 
+    text-align: right;
+}
+body{
+    background-color: white;
+}
+
+.textWrap{
+display: block;
+float:left; 
+margin-right: 10px;
+width: 440px;
+height: 320px;
+padding-bottom: 15px;
+}
+
+.card{
+    margin: auto;
+    margin-bottom: 35px;
+    padding-top: 100px;
+    height: 300px;
+    width: 250px;
+    background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1004792742%2F960x0.jpg%3Ffit%3Dscale");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
