@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Functions</title>
+  </head>
+  <body>
+
+    <h1>Open the console to see the magic!</h1>
+
+    <script>
+
+    // Use this Array
+
+function adder(x,y,z){
+  console.log(x+y+z);
+}
+
+function multiplier(x,y,z){
+  console.log(x*y*z);
+}
+
+function isString(x,y,z){
+  if(typeof x == "string" && typeof y == "string" && typeof z =="string"){
+    console.log( x + ", " + y + ", & " + z + " ARE ALL STRINGS")
+  }
+  else{
+    console.log("I don't think " +  x + ", " + y + ", & " + z + " ARE ALL STRINGS")
+  }
+}
+
+function vowelChecker(x){
+
+  if(x=="a" || x =="o" || x =="i" || x =="e" || x =="u"){
+  console.log(x + " is a VOWEL!")
+}
+else{
+  console.log(x + " is NOT a vowel...")
+}
+}
+adder(1,2,3);
+console.log("---------------");
+multiplier(10, 10, 10);
+console.log("---------------");
+isString("cow", "cat", "dog");
+isString(2, "cat", "dog" );
+console.log("---------------");
+vowelChecker("a");
+vowelChecker("d");
+console.log("---------------");
+
+
+    // Then use console.log to print each of the names listed inside.
+    // ...
+
+    // CODE GOES HERE
+
+
+    // ...
+
+    </script>
+
+  </body>
+</html>
